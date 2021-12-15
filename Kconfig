@@ -1,0 +1,21 @@
+menu "esp-detools"
+	config DETOOLS_FILE_IO
+		bool "enable fileio"
+		default false
+		help
+			Enable File IO functions
+
+	menu "compression"
+		config DETOOLS_COMPRESSION_NONE
+			bool "none"
+			default true
+			help
+				No compression
+
+		config DETOOLS_COMPRESSION_HEATSHRINK
+			bool "heatshrink"
+			default true
+			help
+				No compression
+	endmenu
+endmenu

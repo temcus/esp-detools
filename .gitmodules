@@ -1,0 +1,3 @@
+[submodule "src/detools"]
+	path = src/detools
+	url = https://github.com/eerimoq/detools.git
